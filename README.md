@@ -1,2 +1,2 @@
 # Data 1201 - Explorations in Data Science
-A repository for Data 1201 materials.
+<h3 align="center">Scott Pomerville</h3>
