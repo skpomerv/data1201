@@ -75,14 +75,21 @@ The output of the loop portion of the file will look like what is below:
 
 ## Step 4) Adding the lab9 directory to your git repository. 
 
-In the lab9 folder, make it a git repository with `git init`
+1. In the lab9 folder, make it a git repository with `git init`
 
-Then, get the URL for your own repository on git, it should look something like
+2. Commit all of the files in the directory!
+
+3. Then, get the URL for your own repository on git, it should look something like
 `git remote add "origin" git@github.com:YOUR_USERNAME/data1201.git`
+Make sure you use the proper origin!
 
-Commit all of the files in the directory!
+4. Then, update your local repository's knowledge of remote branches using `git fetch`
 
-Finally, pull from your repository to handle merge conflicts.
+5. Next, set your local branch to point to the remote branch. Assuming both are named `main`, then `git branch --set-upstream-to=origin/main main`
+
+6. Finally, pull from your repository using `git pull --allow-unrelated-histories` to handle merge conflicts.
+    1. The `allow-unrelated-histories` flag ignores differences in commit history!  
+    2. If you have errors, run `git config pull.rebase false` and then re-pull
 
 Handle the conflicts, then push your changes to the remote repository!
 
@@ -90,10 +97,6 @@ Handle the conflicts, then push your changes to the remote repository!
 # Post-Lab Assignment
 
 ## Step 1)
-
-Inside of `$DATA1201_LABS/lab9`, make a script called __decisions.sh__.
-
-Give execution permission to __decisions.sh__. We will get back to this after a bit of info.
 
 ### Decisions: If
 The `if` statement gates certain commands to only run when the condition it checks is true.
@@ -132,4 +135,6 @@ There are many types of comparisons that are in bash. Since many times we are pe
 
 A cheat sheet of comparison types in bash are located [here](https://kapeli.com/cheat_sheets/Bash_Test_Operators.docset/Contents/Resources/Documents/index). 
 
+1. Inside of `$DATA1201_LABS/lab9`, make a script called __decisions.sh__.
 
+Give execution permission to __decisions.sh__. We will get back to this after a bit of info.
