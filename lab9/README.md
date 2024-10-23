@@ -1,7 +1,8 @@
 # This week's Lab!
 ## Objective:
 Get used to creating new scripts, using the /tmp directory,
-and creating more involved decisions.
+and creating more involved decisions. The `/tmp/` directory is the temporary directory, and is
+regularly cleaned by linux during things such as when the system reboots. Its a useful place to insert files you don't plan to keep!
 
 Furthermore, we're going to improve our own command line capabilities by looking at the .bashrc file, a way to customize our environment.
 
