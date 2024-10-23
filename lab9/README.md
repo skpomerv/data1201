@@ -135,6 +135,15 @@ There are many types of comparisons that are in bash. Since many times we are pe
 
 A cheat sheet of comparison types in bash are located [here](https://kapeli.com/cheat_sheets/Bash_Test_Operators.docset/Contents/Resources/Documents/index). 
 
-1. Inside of `$DATA1201_LABS/lab9`, make a script called __decisions.sh__.
+### Checking files
+1. Inside of `$DATA1201_LABS/lab9`, make a script called __check.sh__.
+2. Give execution permission to __check.sh__.
+3. Have it take an argument.
+    1. If the file does not have any arguments, print out "Provide a file to check"
+    2. Then, run `exit 1` to close the file with an error code of 1.
+4. If the file exists, print out the contents using `cat`
+5. Otherwise, print out, `File does not exist!`.
 
-Give execution permission to __decisions.sh__. We will get back to this after a bit of info.
+Test the program with no arguments, with a file that exists, and with a file that does not exist. (Remember that files in another directory may require you to provide the file path).
+
+
