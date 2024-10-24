@@ -120,16 +120,6 @@ Alternatively, we may only have a conditional on it's own:
         exit
     fi
 
-### Decisions: While
-The `while` statement gates certain commands to continue running as long as a condition holds true.
-The condition is checked at the start of each loop iteration.
-
-Notice the scope is encompassed within `do` and `done`!
-
-    while [ condition ]; do
-        # statements
-    done  
-    
 ### Types of comparisons
 There are many types of comparisons that are in bash. Since many times we are performing manipulation on files and strings, it has tools for comparing things such as files, strings, and integers.
 
@@ -147,6 +137,18 @@ A cheat sheet of comparison types in bash are located [here](https://kapeli.com/
 Test the program with no arguments, with a file that exists, and with a file that does not exist. (Remember that files in another directory may require you to provide the file path).
 
 ## Step 2) Again and again and again and again and...
+### Decisions: While
+The `while` statement gates certain commands to continue running as long as a condition holds true.
+The condition is checked at the start of each loop iteration.
+
+Notice the scope is encompassed within `do` and `done`!
+
+    while [ condition ]; do
+        # statements
+    done  
+    
+### Once more, with gusto!
+
 1. Inside of `$DATA1201_LABS/lab9`, make a script called __check.sh__.
 2. Give execution permission to __check.sh__.
 3. Create a `while` loop where the condition is `true`.
@@ -173,10 +175,12 @@ Both of these are synonyms, though we never place anything in the parenthesis si
 
 Make a function at the end of your .bashrc file.
 1. The name should be `newdir`
-2. Have it create the new directory specified by the arguments
+2. Have it create the new directory specified by the argument of the function
+    1. Hint: arguments are accessed the same way as you do when you call a bash script, using `$#`, `$@`, and `$1` through `$n`
 3. Then, have it cd into the directory.
 
+Note: Functions behave similar to sub-file, but variables set inside of a local function can be preceded by the word "local" to limit the scope of the function.
+
+
 This is a small function that makes a new directory and enters it in one go!
-Add a picture of your bashrc again, and save it as "environmentvar2.png" or "environmentvar2.jpg".
-
-
+Add a picture of the function at the end your bashrc, and save it as "environmentvar2.png" or "environmentvar2.jpg".
