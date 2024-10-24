@@ -37,7 +37,7 @@ Aside from aliases, we also can set convenient variables here for our shell. To 
 Environment Variables typically are in all caps.
 Add the following line to your .bashrc to see this in action!
 
-    export DATA1201_LABS="~/data1201/labs"
+    export DATA1201_LABS="$HOME/data1201/labs"
 
 
 1. Take a screenshot of your .bashrc file, and save it as "bashrc.jpg" or "bashrc.png" im the lab9 folder.
