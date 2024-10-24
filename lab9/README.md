@@ -188,3 +188,10 @@ Note: Functions behave similar to sub-file, but variables set inside of a local 
 
 This is a small function that makes a new directory and enters it in one go!
 Add a picture of the function at the end your bashrc, and save it as "environmentvar2.png" or "environmentvar2.jpg".
+
+## Step 4) Finalize the Repo!
+First stage all of the files in your directory using `git add`.
+
+Then, commit all changes to all files in the repository using `git commit -m` with your commit message.
+
+Finally, use `git push` to push the repository to your remote repository!
