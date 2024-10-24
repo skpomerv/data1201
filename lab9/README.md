@@ -1,4 +1,4 @@
-# This week's Lab!
+# Lab Worksheet
 ## Objective:
 Get used to creating new scripts, using the /tmp directory,
 and creating more involved decisions. The `/tmp/` directory is the temporary directory, and is
