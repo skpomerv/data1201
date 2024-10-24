@@ -28,7 +28,7 @@ An alias looks like this:
 
     alias commandname="some_commands_here;secondcommand;thirdcommand"	
 
-For now, let's look at the file. Open ~/.bashrc, and at the end of the file create an alias, __weather__, that maps to the following command:
+For now, let's look at the file. Open ~/.bashrc in your favorite text editor, and at the end of the file create an alias, __weather__, that maps to the following command:
 
     curl wttr.in/Houghton+mi
 
