@@ -24,6 +24,10 @@ Furthermore, we're going to improve our own command line capabilities by looking
 ## Step 2) Fancifying your Environment!
 You can customize your bash shell with shortcuts to commands, as well as make changes for the environment.
 
+An alias looks like this: 
+
+    alias commandname="some_commands_here;secondcommand;thirdcommand"	
+
 For now, let's look at the file. Open ~/.bashrc, and at the end of the file create an alias, __weather__, that maps to the following command:
 
     curl wttr.in/Houghton+mi
