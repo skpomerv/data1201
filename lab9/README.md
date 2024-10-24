@@ -44,7 +44,7 @@ Add the following line to your .bashrc to see this in action!
     1. `echo $DATA1201_LABS`
     2. `cd $DATA1201_LABS`
     3. `pwd`
-6. Take a screenshot of your terminal, and save it as "environmentvar.png" or environmentvar.jpg"
+6. Take a screenshot of your terminal, and save it as "environmentvar.png" or "environmentvar.jpg"
 
 ## Step 3) Getting Input!
 You should now be able to run `cd $DATA1201_LABS/lab9` to return to our lab folder for this lab now.
@@ -96,7 +96,7 @@ Handle the conflicts, then push your changes to the remote repository!
 
 # Post-Lab Assignment
 
-## Step 1)
+## Step 1) Let's Decide Some Things!
 
 ### Decisions: If
 The `if` statement gates certain commands to only run when the condition it checks is true.
@@ -145,5 +145,38 @@ A cheat sheet of comparison types in bash are located [here](https://kapeli.com/
 5. Otherwise, print out, `File does not exist!`.
 
 Test the program with no arguments, with a file that exists, and with a file that does not exist. (Remember that files in another directory may require you to provide the file path).
+
+## Step 2) Again and again and again and again and...
+1. Inside of `$DATA1201_LABS/lab9`, make a script called __check.sh__.
+2. Give execution permission to __check.sh__.
+3. Create a `while` loop where the condition is `true`.
+	1. Inside the loop, prompt for input with `read` into a variable.
+	2. If the input was "exit", then run `exit 0` to terminate the program.
+	3. Otherwise, echo the value.
+
+## Step 3) One last bash<sub>rc</sub>!
+Let's make something a bit more involved than an alias! Let's make a function!
+To define a function, we do the following:
+```
+function myFunc{
+	...
+}
+
+```
+Alternatively:
+```
+myFunc(){
+	...
+}
+```
+Both of these are synonyms, though we never place anything in the parenthesis since all arguments end up in a similar array to when we provide arguments to a bash script!
+
+Make a function at the end of your .bashrc file.
+1. The name should be `newdir`
+2. Have it create the new directory specified by the arguments
+3. Then, have it cd into the directory.
+
+This is a small function that makes a new directory and enters it in one go!
+Add a picture of your bashrc again, and save it as "environmentvar2.png" or "environmentvar2.jpg".
 
 
