@@ -153,9 +153,8 @@ Notice the scope is encompassed within `do` and `done`!
     
 ### Once more, with gusto!
 
-1. Inside of `$DATA1201_LABS/lab9`, make a script called __check.sh__.
-2. Give execution permission to __check.sh__.
-3. Create a `while` loop where the condition is `true`.
+1. Inside of `$DATA1201_LABS/lab9`, at the end of the file __check.sh__.
+2. Create a `while` loop where the condition is `true`.
 	1. Inside the loop, prompt for input with `read` into a variable.
 	2. If the input was "exit", then run `exit 0` to terminate the program.
 	3. Otherwise, echo the value.
