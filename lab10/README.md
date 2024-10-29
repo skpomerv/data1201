@@ -15,7 +15,7 @@ This places the program into ~/openrefine-3.8.4. You can change the directory it
 Then, to run it, we can `cd` into the installed directory, and run the `./refine` script!
 It will open a browser window to handle the UI for openrefine!
 
-![The openrefine start](./images/openrefine-ui "An example of the openrefine start.")
+![The openrefine start](/lab10/images/openrefine-ui.png "An example of the openrefine start.")
 
 ## Importing Data
 
