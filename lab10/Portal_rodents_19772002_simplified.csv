@@ -28,7 +28,7 @@ recordID,species,scientificName,mo,dy,yr,period,plot,note1,stake,locality,coordi
 16184,AH,Ammospermophilus harrisii,6,4,1989,135,15,13,43,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
 16230,AH,Ammospermophilus harrisii,7,3,1989,136,7,13,32,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
 16240,AH,Ammospermophilus harrisii,7,3,1989,136,12,13,51,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
-16242,AH,Ammospermophilus harrisii,7,3,1989,136,7,13,51,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
+16242,AH,Ammospermophilus harrisii,7,3,1989,136,7,,51,Copalinga Private Reserve-blue trail (1050m-C),,NULL,Zamora-Chinchipe Province,ECUADOR,
 16260,AH,Ammospermophilus harrisii,7,3,1989,136,12,13,72,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
 16263,AH,Ammospermophilus harrisii,7,3,1989,136,23,13,73,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
 16288,AH,Ammospermophilus harrisii,7,4,1989,136,15,13,25,Copalinga Private Reserve-red trail (1420m),,NULL,Zamora-Chinchipe Province,ECUADOR,
