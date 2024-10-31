@@ -72,7 +72,9 @@ Let's convert it to numbers, because we might have accidental non-number values,
 
 4. Click the scatterplot between `recordID` and `yr` to select this for the facet.
 
-##OpenRefine Part 2: Weekly Assignment
+**You have completed the lab10 worksheet. Stage all files in the directory with git add, commit them, then push them to your data1201 repository**
+
+## OpenRefine Part 2: Weekly Assignment
 
 ### Transforming Data
 #### Splitting Columns
@@ -142,4 +144,6 @@ The dataset has several near-identical entries in scientificName. For example, t
 
 6. Open a text facet for `scientificName` and take a picture of the new summary of the column. It should have 10 options. Save it in the lab10 folder (not in images!) as "clustered.png" or "clustered.jpg".
 
-Youre done with lab worksheet 10 and the post-lab assignment. Don't delete these materials as we plan to continue OpenRefine next week!
+**You have completed the lab10 post-lab assignment. Stage all files in the directory with git add, commit them, then push them to your github data1201 repository**
+
+__*Don't delete these materials as we plan to continue OpenRefine next week!*__
