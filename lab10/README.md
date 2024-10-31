@@ -105,4 +105,9 @@ We can split data from one column into multiple if the parts are separated by a 
 	1. Rename `scientificName 1` to genus
 	2. Rename `scientificName 2` to species.
 
-10. We can also combine columns. 
+10. We can also combine columns to create new ones. In `yr`, click `Edit Column > Join Columns...`
+	1. In the window that shows up, select `yr`, `mo`, and `dy`
+	2. Have the separater be a hyphen `-`.
+	3. Select `write result in new column` and name it "date"
+
+![Setting up the combine in OpenRefine](/lab10/images/openrefine-date.png "Where the date button is.")
