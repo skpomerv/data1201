@@ -75,6 +75,7 @@ Let's convert it to numbers, because we might have accidental non-number values,
 ##OpenRefine Part 2: Weekly Assignment
 
 ### Transforming Data
+#### Splitting Columns
 If coming to this later, you can open a new instance of OpenRefine, go to `Open Project`, and open an autosave. 
 
 We can split data from one column into multiple if the parts are separated by a common separater (such as a comma or a space).
@@ -105,9 +106,40 @@ We can split data from one column into multiple if the parts are separated by a 
 	1. Rename `scientificName 1` to genus
 	2. Rename `scientificName 2` to species.
 
-10. We can also combine columns to create new ones. In `yr`, click `Edit Column > Join Columns...`
-	1. In the window that shows up, select `yr`, `mo`, and `dy`
+#### Combining Columns
+1. We can also combine columns to create new ones. In `yr`, click `Edit Column > Join Columns...`
+	1. In the window that shows up, select `yr`, mo`, and `dy`
 	2. Have the separater be a hyphen `-`.
-	3. Select `write result in new column` and name it "date"
+	3. Select "write result in new column and name it "date"
+		- You can change the order of the columns by dragging them on the left side of the window. 
 
-![Setting up the combine in OpenRefine](/lab10/images/openrefine-date.png "Where the date button is.")
+![Setting up the combine in OpenRefine](/lab10/images/openrefine-date.png "The combine function in OpenRefine.")
+
+2. Once the new column is created, convert it to a date format using `Edit Cells > Common Transforms > To date`
+
+3. Create a new facet using the new `date` column, and making a `Timeline facet`.
+
+4. Take a picture of the screen with the timeline facet, and place it in the lab10 folder (not in images!) as "timeline.png" or "timeline.jpg".
+
+#### Data Clustering
+Clustering allows you to find groups of entries that are not identical but are sufficiently similar that they may be alternative representations of the same thing (term or data value). For example, the two strings New York and new york are very likely to refer to the same concept and just have a capitalization differences. Likewise, Björk and Bjork probably refer to the same person. These kinds of variations occur a lot in scientific data. Clustering gives us a tool to resolve them.
+
+The dataset has several near-identical entries in scientificName. For example, there are two misspellings of Ammospermophilus harrisii:
+- Ammospermophilis harrisi
+- Ammospermophilus harrisi
+
+1. If you removed it, reinstate the `scientificName` text facet (you can also remove all the other facets to gain some space). In the `scientificName` text facet box - click the Cluster button.
+
+2. In the resulting pop-up window, you can change the `Method` and the `Keying` Function. Try different combinations to see what different mergers of values are suggested.
+
+3. If you select the `key collision method` and the `metaphone3` keying function. It should identify one cluster:
+
+![Clustering Window in OpenRefine](/lab10/images/openrefine-date.png "The Clustering Window in OpenRefine")
+
+4. Note that the `New Cell Value` column displays the new name that will replace the value in all the cells in the group. For now, leave it as `Ammospermophilus harrisii`.
+
+5. Tick the `Merge?` checkbox beside each group, then click `Merge selected & Close` to apply the corrections to the dataset and close the window.
+
+6. Open a text facet for `scientificName` and take a picture of the new summary of the column. It should have 10 options. Save it in the lab10 folder (not in images!) as "clustered.png" or "clustered.jpg".
+
+Youre done with lab worksheet 10 and the post-lab assignment. Don't delete these materials as we plan to continue OpenRefine next week!
