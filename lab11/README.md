@@ -130,7 +130,7 @@ For now, let's use the [GBIF API](https://www.gbif.org/developer/summary). Note 
 
 3. You should see a message at the top on the OpenRefine screen indicating it is fetching some data, with progress showing the percentage of the proportion of rows of data successfully being fetched. Wait for this to complete. After, you should have a new column containing a long text string in a format called ‘JSON’ (this stands for JavaScript Object Notation, although very rarely spelled out in full). 
 
-4. **Take a screenshot of the JSON column, and save it as "url_json.png" or "url_json.jpg"**
+4. __Take a screenshot of the JSON column, and save it as "url_json.png" or "url_json.jpg"__
 
 5. OpenRefine has a function for extracting data from JSON (sometimes referred to as ‘parsing’ the JSON). 
 The parseJson() function is explained in more detail [here](https://docs.openrefine.org/manual/grelfunctions/#format-based-functions-json-html-xml).
